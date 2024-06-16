@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Entry Form</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+<body>
+    <form id="registration">
+        <div>
+            <label for="userFullName">Full Name</label>
+        </div>
+        <input required type="text" id="userFullName" name="userFullName" placeholder="Full Name"/>
+
+        <div>
+            <label for="userEmail">Email</label>
+        </div>
+        <input required type="email" id="userEmail" name="userEmail" placeholder="Sample@gmail.com"/>
+
+        <div>
+            <label for="userPhone">Phone</label>
+        </div>
+        <input required type="number" id="userPhone" name="userPhone" placeholder="XXXX XXX XXX"/>
+
+        <div>
+            <label for="userPassword">Password</label>
+        </div>
+        <input required type="password" id="userPassword" name="userPassword" placeholder="Password"/>
+
+        <input type="button" id="showPassword" value="show password" />
+
+        <div>
+            <label for="userCnfPassword">Confirm Password</label>
+        </div>
+        <input required type="password" id="userCnfPassword" name="userCnfPassword" placeholder="Confirm Password"/>
+        
+        <div class="error"></div>
+        </br>
+        </br>
+        <div class="centerBtn">
+            <input type="submit" id="submitBtn" value="Submit Registration Form" />
+        </div>
+    </form>
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
