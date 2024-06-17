@@ -109,3 +109,17 @@ form#registration {
     border: 1px solid #ddd;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"]::-moz-buttons-decrease,
+input[type="number"]::-moz-buttons-increase {
+  -moz-appearance: none;
+  margin: 0;
+}
+
+
