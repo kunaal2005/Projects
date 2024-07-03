@@ -14,6 +14,7 @@
             <label for="userFullName">Full Name</label>
         </div>
         <input required type="text" id="userFullName" name="userFullName" placeholder="Full Name"/>
+        <p id="nameError" class="error"></p>
 
         <div>
             <label for="userEmail">Email</label>
@@ -29,24 +30,101 @@
             <label for="userPassword">Password</label>
         </div>
         <input required type="password" id="userPassword" name="userPassword" placeholder="Password"/>
-
+        <p id="passwordError" class="error"></p>
         <input type="button" id="showPassword" value="show password" />
 
         <div>
             <label for="userCnfPassword">Confirm Password</label>
         </div>
         <input required type="password" id="userCnfPassword" name="userCnfPassword" placeholder="Confirm Password"/>
-        
+
         <div class="error"></div>
         </br>
         </br>
+
+
         <div class="centerBtn">
             <input type="submit" id="submitBtn" value="Submit Registration Form" />
+            <!-- disabled    -->
         </div>
     </form>
-
     <script src="/index.js"></script>
-    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
 </body>
 
 </html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="registration">
+        <div>
+            <lable for="email-input">Email</lable>
+        </div>
+        <input type="email" id="email-input" name="userEmail" />
+        <div>
+            <lable for="password-input"> Password </lable>
+        </div>
+        <input required type="password" id="password-input" name="userPassword" />
+        <input type="button" id="showPassword"/>
+        <div>
+            <lable for="password-input"> Confirm Password </lable>
+        </div>
+        <input type="password" id="cnf-password-input" name="userCnfPassword" />
+        <div>
+            <lable for="phone-input">Phone</lable>
+        </div>
+        <input type="number" name="userPhoneNumber" />
+        <div>
+            <lable for="club-input">House</lable>
+        </div>
+        <select name="userHouse" id="house-input">
+            <option value="">Select your house</option>
+            <option value="1">Red</option>
+            <option value="2">blue</option>
+            <option value="3">Green</option>
+            <option value="4">Yellow</option>
+        </select>
+        <div>
+            <lable for="hotel-input">Hostle?</lable>
+        </div>
+        <input type="radio" name="userHostle" value="1" />
+        <lable for="q1-o1">Yes</lable>
+        <input type="radio" name="userHostle" value="0" />
+        <lable for="q1-o1">No</lable>
+
+        <div>
+            <lable for="subject-input">Subject(s)</lable>
+        </div>
+        <input type="checkbox" name="subject" id="maths">
+        <lable for="maths">Maths</lable>
+        <input type="checkbox" name="subject" id="English">
+        <lable for="English">English</lable>
+        <input type="checkbox" name="subject" id="physics">
+        <lable for="physics">Physics</lable>
+        <input type="checkbox" name="subject" id="conputers">
+        <lable for="computers">Computer Science</lable>
+
+        <div>
+            <label for="dob-input">DOB Time</label>
+        </div>
+        <input type="datetime-local" name="userDob" id="dob-input" />
+        </br>
+        </br>
+        </br>
+        <button type="submit">Submit Detials</button>
+        <input type="submit" value="Submit details">
+    </form>
+    <script src="/index.js"></script>
+</body>
+
+</html> -->
